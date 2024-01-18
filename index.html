@@ -68,12 +68,7 @@
         i.fa-brands.fa-github,.fa-brands.fa-instagram,.fa-brands.fa-linkedin{
             color: #0C356A;
         }
-        @media screen and (orientation:portrait) {
-            body {
-                transform: rotate(-90deg);
-                transform-origin: 50% 50%;
-        }
-    }
+        
     </style>
 </head>
 <body>
@@ -157,23 +152,6 @@
             }
             return sumOfDigits;
         }
-        function checkOrientation() {
-            var winWidth = $(window).width();
-            var winHeight = $(window).height();
-
-            if (winHeight > winWidth) {
-                $('body').width(winHeight).height(winWidth); // swap the width and height of BODY if necessary
-            }
-        }
-
-        checkOrientation(); // Check orientation on page load
-
-        // Check orientation on page resize (mainly for demo as it's unlikely a tablet's window size will change)
-        var resizeEnd;
-        $(window).resize(function(){ 
-        clearTimeout(resizeEnd);
-        resizeEnd = setTimeout(checkOrientation, 100);
-        });
     </script>
 </body>
 </html>
