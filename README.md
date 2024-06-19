@@ -1,7 +1,3 @@
-Sure! Here is the updated README with the license section properly included:
-
----
-
 # Thala Web Application
 
 Welcome to the Thala Web Application! This project is a static web application showcasing various features and functionalities using HTML, CSS, and JavaScript. It is deployed on Vercel and can be accessed [here](https://thala-ruddy.vercel.app/).
