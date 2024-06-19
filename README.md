@@ -1,3 +1,7 @@
+Sure! Here is the updated README with the license section properly included:
+
+---
+
 # Thala Web Application
 
 Welcome to the Thala Web Application! This project is a static web application showcasing various features and functionalities using HTML, CSS, and JavaScript. It is deployed on Vercel and can be accessed [here](https://thala-ruddy.vercel.app/).
@@ -8,6 +12,7 @@ Welcome to the Thala Web Application! This project is a static web application s
 - [Setup Instructions](#setup-instructions)
 - [Usage](#usage)
 - [Folder Structure](#folder-structure)
+- [License](#license)
 
 ## Features
 - User-friendly interface
@@ -60,6 +65,11 @@ thala/
 ├── index.html            # Main HTML file
 │
 └── README.md             # Readme file
+```
+
+## License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
 ---
 
 Thank you for using the Thala Web Application! If you have any questions or need further assistance, please feel free to contact us.
